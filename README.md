@@ -39,26 +39,45 @@ npm start
 
 4. Open the app in your browser at http://localhost:3000.
 
+
 File Structure
+
 . src/components:
+
  . Header.js: Displays the app's header.
+ 
  . Footer.js: Displays the app's footer.
+ 
  . JokeDisplay.js: Component to display jokes.
+ 
  . SearchBar.js: Search functionality.
+ 
 . src/pages:
+
  . Home.js: Main page for joke browsing.
+ 
 . src/services:
+
  . api.js: Manages API calls for jokes.
+ 
 . App.js: Main app component with routing.
+
 . index.js: Entry point for React.
 
+
 API Integration
+
 . Base API: Official Joke API
+
 . Endpoints Used:
+
  . /random_joke: Fetch a random joke.
+ 
  . /jokes/<type>/ten: Fetch ten jokes of a specific type (e.g., General or Programming).
  
+ 
 Deployment
+
 1. Build the app for production:
 
 bash
@@ -69,6 +88,10 @@ npm run build
 . Netlify
 
 Future Enhancements
+
 . Add more joke categories.
+
 . Include user authentication to save favorite jokes.
+
 . Enable sharing jokes on social media.
+
