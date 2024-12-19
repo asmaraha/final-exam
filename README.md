@@ -13,10 +13,12 @@ This is a React application that interacts with the Joke API to display random j
 
 
 Features
+
 1. Search Functionality: Users can search for jokes globally across the entire API.
 2. Category Selection: Browse jokes by category (e.g., General, Programming).
 3. Responsive Design: Styled using Bootstrap for mobile and desktop compatibility.
 4. Dynamic UI Updates: React state management ensures real-time updates to the UI.
+
 
 Installation and Setup
 1. Clone the repository:
