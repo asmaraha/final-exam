@@ -24,17 +24,21 @@ Installation and Setup
 1. Clone the repository:
 
 bash
+
 git clone <repository-url>
+
 cd <repository-folder>
 
 2. Install dependencies:
 
 bash
+
 npm install
 
 3. Run the development server:
 
 bash
+
 npm start
 
 4. Open the app in your browser at http://localhost:3000.
@@ -44,36 +48,37 @@ File Structure
 
 . src/components:
 
- . Header.js: Displays the app's header.
+   . Header.js: Displays the app's header.
  
- . Footer.js: Displays the app's footer.
+   . Footer.js: Displays the app's footer.
  
- . JokeDisplay.js: Component to display jokes.
+   . JokeDisplay.js: Component to display jokes.
  
- . SearchBar.js: Search functionality.
+   . SearchBar.js: Search functionality.
  
 . src/pages:
 
- . Home.js: Main page for joke browsing.
+   . Home.js: Main page for joke browsing.
  
 . src/services:
 
- . api.js: Manages API calls for jokes.
+   . api.js: Manages API calls for jokes.
  
 . App.js: Main app component with routing.
 
 . index.js: Entry point for React.
 
 
+
 API Integration
 
-. Base API: Official Joke API
+. Base API: Official Joke API: https://official-joke-api.appspot.com
 
 . Endpoints Used:
 
- . /random_joke: Fetch a random joke.
+   . /random_joke: Fetch a random joke.
  
- . /jokes/<type>/ten: Fetch ten jokes of a specific type (e.g., General or Programming).
+   . /jokes/<type>/ten: Fetch ten jokes of a specific type (e.g., General or Programming).
  
  
 Deployment
@@ -81,11 +86,14 @@ Deployment
 1. Build the app for production:
 
 bash
+
 npm run build
 
 2. Deploy using platform:
 
 . Netlify
+
+ https://zingy-hamster-0df5bd.netlify.app
 
 Future Enhancements
 
