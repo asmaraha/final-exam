@@ -1,10 +1,16 @@
 Joke API React App Documentation
+
 Project Overview
+
 This is a React application that interacts with the Joke API to display random jokes and allow users to:
 
+
 . Search jokes across multiple categories.
+
 . Browse jokes by type (e.g., General or Programming).
+
 . View jokes with a responsive design using Bootstrap.
+
 
 Features
 1. Search Functionality: Users can search for jokes globally across the entire API.
